@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --bg: #fafaf8; --fg: #1d1d1b; --muted: #5c5c58; --link: #1f5fbf; }
+@media (prefers-color-scheme: dark) { :root { --bg: #18181a; --fg: #ececea; --muted: #a5a5a0; --link: #8ab4f8; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 1.8rem; margin: 0 0 1rem; }
+h2 { font-size: 1.3rem; margin-top: 2.5rem; }
+em, [lang="en"] { color: var(--muted); }
+a { color: var(--link); }
+nav { margin-top: 2.5rem; font-size: .95rem; }
